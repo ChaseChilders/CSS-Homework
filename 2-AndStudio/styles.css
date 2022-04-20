@@ -163,3 +163,17 @@ p {
   justify-content: center;
   padding-top: 40px;
 }
+
+.footer {
+  border-top: 1px solid blue;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px;
+  width: 90%;
+}
+
+.email {
+  color: blue;
+}
