@@ -1,0 +1,165 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: gray;
+}
+
+nav {
+  display: flex;
+  padding-right: 40px;
+}
+
+.logo {
+  display: flex;
+  padding-left: 60px;
+}
+
+.top-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px;
+  border-bottom: 2px solid blue;
+  padding-bottom: 60px;
+  width: 90%;
+}
+
+.heading-nomad {
+  margin-bottom: 60px;
+  font-size: 40px;
+  color: blue;
+  font-weight: 100;
+}
+
+.left-top-main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  line-height: 2em;
+  font-size: 15px;
+}
+
+.heading-case {
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.right-top-main {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+}
+
+.middle-top-main {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  align-items: baseline;
+  font-weight: 100;
+}
+
+.heading-deliverable {
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.deliverable {
+  line-height: 1.6em;
+}
+
+p {
+  color: grey;
+}
+
+.heading-release {
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.heading-line {
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.heading-photos {
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.pictures-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desk-top {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 90%;
+}
+
+.desk-bottom {
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.labore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.labore-right {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 150px;
+  padding-top: 40px;
+}
+
+.labore-left {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid blue;
+  width: 300px;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.title-labore {
+  padding-top: 50px;
+  font-weight: 100;
+  color: blue;
+}
+
+.letter-picture {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
